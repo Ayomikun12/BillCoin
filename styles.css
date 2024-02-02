@@ -396,7 +396,7 @@ nav ul li a {
 
 
 
-@media(max-width: 800px){
+@media(max-width: 500px){
     nav .mainMenu {
         height: 65vh;
         width: 50%;
