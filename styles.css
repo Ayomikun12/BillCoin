@@ -1,0 +1,501 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  padding: .3rem;
+}
+
+nav .logo {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-left: .5rem;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  margin: 7px;  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Menu .logo .co {
+    color: white;
+}
+
+.Menu .logo .bi {
+    color: white;
+}
+
+.openMenu {
+    display: none;
+} 
+
+.hero {
+  background: url('images (12).jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.hero-text{
+    opacity: 0;
+    animation: animateContent 5s ease forwards;
+}
+
+.hero-text h1 {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 3rem;
+  color: #000;
+  text-align: center;
+  letter-spacing: .5rem;
+}
+
+.hero-text h1 .in {
+    color: blue;
+}
+
+.mark {
+    display: flex;
+    gap:1rem;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.sign a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: .6rem;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+
+.log a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    padding: .6rem;
+    border-radius: 6px;
+}
+
+.ded {
+    display: flex;
+    margin-top: 1rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ded .serve p {
+    font-size: 10px;
+    color: blue;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+.hero-text p {
+    width:100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.org {
+    background-color: blue;
+}
+
+.org-text h2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    margin-left: 1rem;
+    animation: slideInFromRight 3s ease-in;
+    text-align: center;
+}
+
+.inv h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.sec {
+    margin-top: 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.dig {
+    display: flex;
+    border: 1px solid #000;
+    background-color: blue;
+    margin-top: 1.5rem;
+    animation: slideInFromLeft 3s ease-in;
+    width: 100%;
+}
+
+.gig {
+     display: flex;
+    border: 1px solid #000;
+    background-color: blue;
+    margin-top: 1.5rem;
+    animation: slideInFromLeft 3s ease-in;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.fun h3 {
+    font-size: 35px;
+    margin-left: 1rem;
+    color: white;
+    margin-top:1rem;
+}
+
+.fun p {
+    font-size: 17px;
+    background-color: #fff;
+    padding:.5rem;
+    margin-left: 1rem;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.plan h4 {
+    background-color: white;
+    text-align: center;
+    padding: .5rem;
+    width: 100%;
+   /*margin-left: 1.4rem; */
+}
+
+.min p {
+    margin-top: 1.3rem;
+    color: white;
+    font-size: 12px;
+    margin-left: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.mum {
+    display: flex;
+    justify-content: end;
+}
+
+.per p {
+    margin-left: 2.5rem;
+    margin-top: 1.3rem;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.sel {
+    margin-top: 1rem;
+    display: block;
+}
+
+.pln, .ent, .am {
+    margin-top: 1rem;
+}
+
+.ana {
+    background-color: blue;
+}
+
+.tech h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    animation: animateContent 3s ease-in forwards;
+    font-size: 18px;
+}
+
+.ana p {
+    animation: animateContent 4s ease-in forwards;
+    text-align: center;
+    font-size:12px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    line-height: 1.8;
+    color: #fff;
+    padding: 1rem;
+    opacity: 0;
+}
+
+.wel {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.comm h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.bill p {
+    width: 90%;
+    line-height: 1.6;
+    margin-left: 1rem;
+}
+
+.wor h3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.wor p {
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+    background-color: blue;
+    color: #fff;
+    padding: 1rem;
+}
+
+.fit {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.ben {
+    display: flex;
+}
+
+.team {
+    background-color: blue;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    width: 90%;
+    margin-left: 1rem;
+}
+
+.team p {
+    margin-top: .7rem;
+}
+
+.comp {
+    background-color: blue;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    width: 95%;
+}
+
+.comp p {
+    margin-top: .7rem;
+}
+
+.ref-text h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
+    background-color: blue;
+    padding: .7rem;
+    color: #fff;
+}
+
+.prom {
+    text-align: center;
+    margin-top: 1.5rem
+}
+
+.prom p {
+    margin-top: .5rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: .5rem;
+    line-height: 1.6
+}
+
+.aff {
+    text-align: center;
+    margin-top: 1.5rem
+}
+
+.aff h2 {
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+    padding: .7rem;
+}
+
+.aff .wee {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    line-height: 1.4;
+}
+
+.aff .mine {
+    width: 65%;
+    margin: 0 auto;
+    line-height: 1.4;
+    margin-top: .5rem;
+}
+
+
+
+@keyframes animateContent {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+@media(max-width: 800px){
+    nav .mainMenu {
+        height: 65vh;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        left: 100;
+        background-color: blue;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .sec {
+        display: grid;
+    }
+    
+    .gig {
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+    
+    .openMenu {
+    display: block;
+    margin-top: .4rem;
+    color: #fff;
+    margin-right: .5rem;
+    }
+    
+    .wel {
+        display: grid;
+    }
+    
+    .comm h2 {
+        font-size: 18px;
+    }
+    
+    .svg {
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .svg img {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-left: 2.8rem;
+    }
+    
+    .bill p {
+        font-size: 15px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .wor h3 {
+        font-size: 17px;
+    }
+    
+    .wor p {
+        font-size: 15px;
+    }
+    
+    .ben {
+        display: grid;
+    }
+    
+    .fit h2 {
+        font-size: 18px;
+    }
+    
+    .team h3 {
+        font-size: 17px;
+    }
+    
+     .team p {
+         font-size: 11px;
+     }
+     
+     .comp {
+         margin-left: 1rem;
+         width: 90%;
+     }
+     
+     .comp h3 {
+         font-size: 17px;
+     }
+     
+     .comp p {
+         font-size: 11px;
+     }
+     
+     .ref-text h2 {
+         padding:0;
+         
+     }
+}
+
